@@ -22,7 +22,11 @@ py -m venv myvirenvi
 # Active virtual environment
 myvirenvi\Scripts\activate
 
-# 
+# Install the required library, by:
+pip install -r requirements.txt
+# or:
+pip install pandas matplotlib seaborn jupyter streamlit
+
 ```
 
 ### Run Streamlit App
