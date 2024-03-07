@@ -29,7 +29,7 @@ def create_rfm_df(df):
     return rfm_df
 
 
-main_data_df = pd.read_csv("main_data.csv")
+main_data_df = pd.read_csv("https://raw.githubusercontent.com/4ll15w3ll/submission/main/dashboard/main_data.csv")
 
 # Ubah tipe data yang perlu jadi datetime dan definisikan variabel baru min_date & max_date untuk dipakai di rfm analysis
 datetime_columns = ["order_purchase_timestamp", "order_approved_at"]
