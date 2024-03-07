@@ -25,7 +25,7 @@ myvirenvi\Scripts\activate
 # Install the required library, by:
 pip install -r requirements.txt
 # or:
-pip install pandas matplotlib seaborn jupyter streamlit
+pip install pandas matplotlib seaborn streamlit babel
 
 ```
 
@@ -38,11 +38,10 @@ cd dashboard
 streamlit run dashboard.py
 
 # quit
-ctrl-c
+ctrl+c
 ```
 
-
-py -m pip install -r requirements.txt
-
-
+### To Close Virtual Environment
+```Powershell
 deactivate
+```
