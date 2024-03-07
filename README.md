@@ -1,12 +1,44 @@
-# Belajar Analisis Data dengan Python
+# Belajar Analisis Data dengan Python :pray:
 
-Repository untuk belajar analisis data menggunakan python di platform dicoding
+This project is made to accomplish data analysis course in dicoding platform
+This project is using python with version of 3.12.2 and run on windows OS
 
-## Penting untuk dilakukan
+## How to Run Dashboard
 
-1. Clone repository.
-2. Install keperluan dengan mengetik di terminal `pip install -r requirements.txt`.
+### Setup Environment
+```Powershell
+# Make submission dir as your cwd
+cd path/to/submission
 
-## Tujuan
+# Make sure you've installed latest version pip
+py -m pip install --upgrade pip
 
-1. Berlatih agar mahir dalam menganalisis data
+# Install the virtual environment module
+pip install virtualenv
+
+# Create virtual environment, in this case I'm using name "myvirenvi" or you can give other name like you want or like it
+py -m venv myvirenvi
+
+# Active virtual environment
+myvirenvi\Scripts\activate
+
+# 
+```
+
+### Run Streamlit App
+```Powershell
+# set dashboard as cwd
+cd dashboard
+
+# run
+streamlit run dashboard.py
+
+# quit
+ctrl-c
+```
+
+
+py -m pip install -r requirements.txt
+
+
+deactivate
